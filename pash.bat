@@ -1,0 +1,6 @@
+@ECHO OFF
+
+SET BASEDIR=%~dp0
+%BASEDIR%pash.exe %*
+
+IF ERRORLEVEL 1 PAUSE
